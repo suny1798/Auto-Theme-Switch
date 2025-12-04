@@ -22,21 +22,15 @@ Automatically switch IntelliJ IDEA themes based on scheduled times.
 
 ## 📥 Installation
 
-### Method 1: From Release (Recommended)
+### From Release (Recommended)
 
-1. Download the latest `auto-theme-switch-x.x.x.zip` from [Releases](https://github.com/yourusername/auto-theme-switch/releases)
+1. Download the latest `auto-theme-switch-1.0.0.zip` from [Releases](https://github.com/suny1798/Auto-Theme-Switch/releases/)
 2. Open IntelliJ IDEA
 3. Go to `Settings/Preferences` → `Plugins` → ⚙️ (Settings icon) → `Install Plugin from Disk...`
 4. Select the downloaded zip file
 5. Restart IDE
 
-### Method 2: Build from Source
-```bash
-git clone https://github.com/yourusername/auto-theme-switch.git
-cd auto-theme-switch
-./gradlew buildPlugin
-# The plugin zip will be in build/distributions/
-```
+
 
 ## 🚀 Usage
 
@@ -52,7 +46,7 @@ cd auto-theme-switch
 
 ## 📸 Screenshots
 
-![Settings Dialog](screenshots/dialog.png)
+![Settings Dialog](src/main/resources/Snipaste_2025-12-04_15-15-46.jpg)
 
 ## 🛠️ Requirements
 
