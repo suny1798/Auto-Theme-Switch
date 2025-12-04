@@ -46,7 +46,7 @@ Automatically switch IntelliJ IDEA themes based on scheduled times.
 
 ## 📸 Screenshots
 
-![Settings Dialog](src/main/resources/Snipaste_2025-12-04_15-15-46.jpg)
+![Settings Dialog](src/main/resources/Snipaste_2025-12-04_15-55-29.jpg)
 
 ## 🛠️ Requirements
 
