@@ -4,7 +4,7 @@
 
     <name>Auto Theme Switcher</name>
 
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <vendor email="2632462418@qq.com" url="https://github.com/suny1798">孙培洪</vendor>
 
@@ -29,7 +29,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
-        <h3>Version 1.0.0</h3>
+        <h3>Version 1.1.0</h3>
         <ul>
             <li>Initial release</li>
             <li>Time-based automatic theme switching</li>

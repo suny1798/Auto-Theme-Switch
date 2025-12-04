@@ -54,18 +54,18 @@ public class AutoThemeSwitchDialog extends DialogWrapper {
         // ==================== 定时切换区域 ====================
         // 分隔标题
         gbc.gridx = 0; gbc.gridy = row++; gbc.gridwidth = 4;
-        JLabel scheduledLabel = new JLabel("定时切换设置");
+        JLabel scheduledLabel = new JLabel("自动主题切换");
         scheduledLabel.setFont(scheduledLabel.getFont().deriveFont(Font.BOLD, 14f));
         mainPanel.add(scheduledLabel, gbc);
 
         // 启用定时设置
         gbc.gridx = 0; gbc.gridy = row++; gbc.gridwidth = 4;
-        enableCheckBox = new JBCheckBox("应用定时设置");
+        enableCheckBox = new JBCheckBox("启用自动切换");
         mainPanel.add(enableCheckBox, gbc);
 
         // 主题1设置
         gbc.gridwidth = 1; gbc.gridy = row; gbc.gridx = 0;
-        mainPanel.add(new JBLabel("定时切换主题1:"), gbc);
+        mainPanel.add(new JBLabel("主题一:"), gbc);
         gbc.gridx = 1; gbc.gridwidth = 3;
         theme1ComboBox = new JComboBox<>(themes.toArray(new String[0]));
         mainPanel.add(theme1ComboBox, gbc);
@@ -73,7 +73,7 @@ public class AutoThemeSwitchDialog extends DialogWrapper {
         // 时间1 - 小时和分钟
         row++;
         gbc.gridwidth = 1; gbc.gridy = row; gbc.gridx = 0;
-        mainPanel.add(new JBLabel("切换时间1:"), gbc);
+        mainPanel.add(new JBLabel("时间:"), gbc);
 
         gbc.gridx = 1;
         JPanel time1Panel = new JPanel(new FlowLayout(FlowLayout.LEFT, 5, 0));
@@ -89,7 +89,7 @@ public class AutoThemeSwitchDialog extends DialogWrapper {
         // 主题2设置
         row++;
         gbc.gridwidth = 1; gbc.gridy = row; gbc.gridx = 0;
-        mainPanel.add(new JBLabel("定时切换主题2:"), gbc);
+        mainPanel.add(new JBLabel("主题二:"), gbc);
         gbc.gridx = 1; gbc.gridwidth = 3;
         theme2ComboBox = new JComboBox<>(themes.toArray(new String[0]));
         mainPanel.add(theme2ComboBox, gbc);
@@ -97,7 +97,7 @@ public class AutoThemeSwitchDialog extends DialogWrapper {
         // 时间2 - 小时和分钟
         row++;
         gbc.gridwidth = 1; gbc.gridy = row; gbc.gridx = 0;
-        mainPanel.add(new JBLabel("切换时间2:"), gbc);
+        mainPanel.add(new JBLabel("时间:"), gbc);
 
         gbc.gridx = 1;
         JPanel time2Panel = new JPanel(new FlowLayout(FlowLayout.LEFT, 5, 0));
@@ -118,7 +118,7 @@ public class AutoThemeSwitchDialog extends DialogWrapper {
         // ==================== 立即切换区域 ====================
         // 分隔标题
         gbc.gridx = 0; gbc.gridy = row++; gbc.gridwidth = 4;
-        JLabel instantLabel = new JLabel("立即切换");
+        JLabel instantLabel = new JLabel("手动主题切换");
         instantLabel.setFont(instantLabel.getFont().deriveFont(Font.BOLD, 14f));
         mainPanel.add(instantLabel, gbc);
 
@@ -131,7 +131,7 @@ public class AutoThemeSwitchDialog extends DialogWrapper {
         mainPanel.add(instantThemeComboBox, gbc);
 
         gbc.gridx = 3; gbc.gridwidth = 1;
-        switchNowButton = new JButton("立即切换");
+        switchNowButton = new JButton("应用");
         switchNowButton.addActionListener(e -> switchThemeNow());
         mainPanel.add(switchNowButton, gbc);
 
@@ -141,14 +141,14 @@ public class AutoThemeSwitchDialog extends DialogWrapper {
     private JSpinner createHourSpinner() {
         SpinnerNumberModel model = new SpinnerNumberModel(0, 0, 23, 1);
         JSpinner spinner = new JSpinner(model);
-        spinner.setPreferredSize(new Dimension(60, 25));
+        spinner.setPreferredSize(new Dimension(80, 25));
         return spinner;
     }
 
     private JSpinner createMinuteSpinner() {
         SpinnerNumberModel model = new SpinnerNumberModel(0, 0, 59, 1);
         JSpinner spinner = new JSpinner(model);
-        spinner.setPreferredSize(new Dimension(60, 25));
+        spinner.setPreferredSize(new Dimension(80, 25));
         return spinner;
     }
 
