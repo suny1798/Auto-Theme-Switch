@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/IDEA-2024.3%2B-blue" alt="IDEA Version"/>
-  <img src="https://img.shields.io/github/v/release/yourusername/auto-theme-switch" alt="Release"/>
-  <img src="https://img.shields.io/github/license/yourusername/auto-theme-switch" alt="License"/>
+  <img src="https://img.shields.io/github/v/release/suny1798/auto-theme-switch" alt="Release"/>
+  <img src="https://img.shields.io/github/license/suny1798/auto-theme-switch" alt="License"/>
 </p>
 
 Automatically switch IntelliJ IDEA themes based on scheduled times.
