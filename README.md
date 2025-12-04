@@ -70,7 +70,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🐛 Bug Reports
 
-Found a bug? Please [open an issue](https://github.com/yourusername/auto-theme-switch/issues).
+Found a bug? Please [open an issue](https://github.com/suny1798/Auto-Theme-Switch/issues).
 
 ## ⭐ Support
 
