@@ -50,7 +50,7 @@ Automatically switch IntelliJ IDEA themes based on scheduled times.
 
 ## 🛠️ Requirements
 
-- IntelliJ IDEA 2023.2 or later
+- IntelliJ IDEA 2024.3 or later
 - Java 17+
 
 ## 📝 How It Works
